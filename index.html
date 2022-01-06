@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>copy of Test_RandomCluster</title>
+    <title>copy of gallery switch fix</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-    <meta itemprop="name" content="copy of Test_RandomCluster">
+    <meta itemprop="name" content="copy of gallery switch fix">
     <meta itemprop="description" content="made with cables">
     <meta itemprop="image" content="screenshot.png">
     <meta name="description" content="made with cables" />
@@ -15,13 +15,11 @@
             margin: 0;
             background-color: #000;
             color: #fff;
-            font-family: Helvetica, sans-serif;
+            font-family: Helvetica, Arial, sans-serif;
             overflow: hidden; /* disable scrolling / rubberband effect on mobile */
         }
 
-        .sidebar-cables {
-            display: none;
-        }
+        
 
         canvas {
             display: block;
@@ -40,8 +38,6 @@
         }
 
         footer {
-            text-decoration: none;
-
             position: absolute;
             bottom: 0;
             left: 0;
@@ -50,27 +46,22 @@
             padding: 20px;
             text-align: right;
             font-size: 18px;
-            color: var(--highlight-color);
+            color: greenyellow;
         }
 
-        footer a {
-            text-decoration: none;
-            color: grey;
-            filter: blur(0px);
-
-           
-        }
-        
+        footer a,
         footer a:hover,
         footer a:active {
             text-decoration: none;
-            filter: blur(10px);
-            
-
+            color: greenyellow;
+            text-shadow: 0 0 20px greenyellow;
         }
 
-
-        
+        .button {
+            font-size: 5em;
+            font-weight: 400;
+            text-shadow: 0 0 20px greenyellow;
+        }
     </style>
 
 </head>
@@ -78,8 +69,7 @@
 <body>
     <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
     <footer>
-         <a href='https://www.instagram.com/bxbvda/'>Van den Audenaerde Bob</a>
-        <!-- we would greatly appreciate if you link cables somewhere on your site! and tell us your website! thanks <3 :) -->
+PORTFOLIO        <!-- we would greatly appreciate if you link cables somewhere on your site! and tell us your website! thanks <3 :) -->
     </footer>
 
     <libs/>
